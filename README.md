@@ -1,5 +1,15 @@
 # Raspberry Pi Notes
 
+# Build SD OS
+
+```
+diskutil list
+
+diskutil unmountDisk /dev/disk<disk number you wrote down above>
+
+sudo dd if=~/Downloads/ubuntu-15.04-snappy-armhf-rpi2.img of=/dev/rdisk<disk number you noted above> bs=32MB
+```
+
 ## Setup wifi
 
 The following command will scan for available wifi networks.
