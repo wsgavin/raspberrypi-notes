@@ -7,7 +7,7 @@ sudo iwlist wlan0 scan
 sudo vi sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
-Add the following lines to `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+Add the following lines to `/etc/wpa_supplicant/wpa_supplicant.conf`
 
 ```
 network={
